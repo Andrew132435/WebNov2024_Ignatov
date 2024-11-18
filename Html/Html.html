@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>My first website</title>
+</head>
+<body>
+<p>Hello HTML!</p>
+<hr>
+<img src="/HTML5_logo_black.svg.png" alt="image" height="10%" width="10%">
+
+<form action="Html.html" method="post">
+    <p><label for="username">Ваше имя:</label>
+        <input type="text" placeholder="Ваше имя" id="username" name="userName"></p>
+
+    <p><label for="languageCheckBox">Выберите язык(-и) программирования:</label><br>
+        <label><input type="checkbox" id="languageCheckBox" name="checkbox" value="check1"></label> Java<br>
+        <label><input type="checkbox" name="checkbox" value="check2"></label> Python<br>
+        <label><input type="checkbox" name="checkbox" value="check3"></label> C#</p>
+
+    <p><label for="radio">Операционная система:</label><br>
+        <label><input type="radio" id="radio" name="radio" value="rad1"></label> Windows<br>
+        <label><input type="radio" name="radio" value="rad2"></label> Linux<br>
+        <label><input type="radio" name="radio" value="rad3"></label> macOS</p>
+
+    <p><label for="singleCitySelect">Выберите свой город:</label><br>
+        <select name="singleCitySelect" id="singleCitySelect">
+            <option disabled selected value>Выберите свой город</option>
+            <option value="1">Новосибирск</option>
+            <option value="2">Москва</option>
+            <option value="3">Санкт-Петербург</option>
+            <option value="4">Екатеринбург</option>
+        </select></p>
+
+    <p><label for="multipleCarModelSelect">Выберите любимые марки авто:</label><br>
+        <select name="cars" multiple id="multipleCarModelSelect">
+            <option disabled selected value>Выберите марки авто</option>
+            <option value="1">Mitsubishi</option>
+            <option value="2">Toyota</option>
+            <option value="3">Mercedes</option>
+            <option value="4">Lexus</option>
+            <option value="5">Audi</option>
+            <option value="6">Ford</option>
+            <option value="7">Honda</option>
+        </select></p>
+
+    <label><textarea rows="10" cols="100" placeholder="Введите любой текст" name="text"></textarea></label>
+    <p><button type="submit">Подтвердить</button></p>
+    <br>
+    <p><a target="_blank" href="2.html">Ссылка на страницу 2</a></p>
+</form>
+</body>
+</html>
